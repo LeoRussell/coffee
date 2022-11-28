@@ -13,7 +13,6 @@ class Coffee(QMainWindow):
         con = sqlite3.connect("coffee.sqlite")
         cur = con.cursor()
         self.coffee = cur.execute("""SELECT * FROM coffee_base""").fetchall()
-        print(self.coffee)
 
         self.butt1.clicked.connect(self.createTable)
         
