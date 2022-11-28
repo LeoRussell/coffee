@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>COFFEE DATA</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTableWidget" name="table1">
@@ -35,6 +35,13 @@
       <width>621</width>
       <height>51</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>СФОРМИРОВАТЬ ТАБЛИЦУ</string>
